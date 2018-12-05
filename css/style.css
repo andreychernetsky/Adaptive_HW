@@ -348,13 +348,14 @@ html {
 
 /*описание слайдера*/
 .slider__item {
-    padding-top: 60%;
+    padding-top: 70%;
     background-position: center center;
     background: no-repeat;
     background-size: cover;
+    color: #fff;
 }
 
-.slider .owle-dots span {
+/*.slider .owl-dot span {
     background: #fff;
     border: 1px solid #ccc;
     width: 1rem;
@@ -362,8 +363,8 @@ html {
     display: block;
 }
 
-.slider .owle-dot .active span,
-.slider .owle-dot:hover span {
+.slider .owl-dot .active span,
+.slider .owl-dot:hover span {
     background: #000;
     border-color: #000;
 }
@@ -372,14 +373,14 @@ html {
     display: inline-block;
 }
 
-.slider .owle-dots {
+.slider .owe-dots {
     text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
 
-}
+}*/
 
 .headline {
     text-align: center;
