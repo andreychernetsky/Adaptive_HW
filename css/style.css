@@ -19,7 +19,7 @@ html {
 }
 
 /*оформление header*/
-.main-header {
+.main-header{
     max-width: 100%;
     border-bottom: 1px solid #ccc;
     padding: 1.8rem 0;
@@ -184,6 +184,23 @@ html {
 /*.dws-facebook:hover{width: 75px}*/
 .dws-vk:hover, .dws-youtube:hover {
     width: 55px
+}
+.social-button {
+    display: none;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 1.65rem;
+    color: #fff;
+    opacity: .7;
+    transition: all .5s ease;
+}
+@media screen and (max-width: 460px);
+    .icon-bar button {
+        display: block;
+    }
 }
 
 .wrap {
@@ -383,35 +400,40 @@ html {
 }*/
 
 .headline {
+
     text-align: center;
     font-size: 1.75rem;
     font-weight: 400;
     margin: 2rem 0;
 }
 
-.footer {
-    padding: 1.2rem;
-}
-
-.footer__copyright {
-    text-align: right;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
+.main-footer {
+    max-width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 1.8rem 0;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
+    margin-top: 30px;
+    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 
 }
 
-.footer__link {
-    color: inherit;
-    text-decoration: none;
+.main-footer__copyright {
+
+
 }
 
-.footer__link:hover {
-    text-decoration: underline;
+.main-footer__link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.main-footer__link:hover {
+    text-decoration: darkgreen;
 }
 
 
