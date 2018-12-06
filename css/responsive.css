@@ -35,9 +35,32 @@
         width:90%;
         margin: 0 auto;
     }
-    .icon-menu {
+    .icon-bar {
+        display:none;
+        top:auto;
+        bottom:10px;
+        left: 10px;
+    }
+    .icon-bar {
         display:block;
     }
+    .icon-bar button {
+        display: block;
+    }
+    .icon-bar .social {
+        display: none;
+    }
+    .icon-bar a {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 1.65rem;
+        color: #fff;
+        opacity: .7;
+        transition: all .5s ease;
+        margin-bottom: 15px; }
+
+
 
     .one__description {
         display: flex;

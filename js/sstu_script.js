@@ -17,10 +17,12 @@ $(document).ready(function(){
 });
 
 
+
 $(document).ready(function () {
   $('a').attr('target', 'blank');
   $('.social-button').click(function () {
-    $('.dws-button').toggle(500);
-    $('.social-icons').toggleClass('open');
+    $('.social').toggle(500);
+    $('.icon-bar').toggleClass('open');
   })
-});
+})
+
