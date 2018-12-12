@@ -173,7 +173,8 @@ html {
 }
 
 .wrapper {
-	font-family: 'Roboto', sans-serif;
+	font-family: Georgia, "Bitstream Charter", serif;
+	/*font-family: 'Roboto', sans-serif;*/
 	font-weight: 300;
 	color: #000;
 	font-size: 1.3rem;
@@ -337,20 +338,36 @@ html {
 }
 
 .one__title {
+	font-family: Georgia, "Bitstream Charter", serif;
+	font-size: 2.1rem;
+	line-height: 1.15;
+	margin: 0 50px 0 0;
+	padding: 0;
 	text-align: center;
 }
 
 .one__title2 {
 	text-align: center;
+	font-family: Georgia, "Bitstream Charter", serif;
 }
 
 .one__info {
-	margin: 10px;
+	/*margin: 10px;*/
+
 }
 
 .one__description {
 	width: 100%;
 	margin: 10px;
+	line-height: 1.9rem;
+
+}
+strong {
+	font-weight:700;
+}
+span {
+	color: #b12930;
+	font-weight: 700;
 }
 
 /*оформление wrap-bloc*/
